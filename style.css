@@ -8,7 +8,7 @@
   
   .sidebar{
     padding-top: 20px;
-    background-color: #ad0004;
+    background-color: #020617;
     border: 1px solid black;
     grid-row: 1/4;
     display: grid;
@@ -17,10 +17,10 @@
   }
   
   .search{
-    background-color: white;
+    background-color: #475569;
     border: 1px solid black;
     display: grid;
-    gap:10px;
+    gap:4px;
     grid-template-columns: 40px minmax(30px, 4fr) 30px 30px minmax(60px, 1fr);
     align-items:center;
     justify-content: space-between;
@@ -29,12 +29,12 @@
   } 
   
   .profile-bar{
-    background-color: lightblue;
+    background-color: #475569;
     border: 1px solid black;
   }
   
   .content{
-    background-color: lightblue;
+    background-color: #334155;
     border: 1px solid black;
   }
   
@@ -56,6 +56,9 @@
     border: none;
     border-radius: 10px;
     height: 24px;
+
   }
   
-  
+.magnify{
+    height: 24px;
+}
