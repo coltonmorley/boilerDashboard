@@ -3,11 +3,12 @@
   }
   .container{
     display:grid;
-    grid-template: minmax(60px, 5vh) minmax(50px, 10vh) minmax(200px, 85vh) / minmax(25px,1fr) minmax(100px,4fr);
+    grid-template: minmax(60px, 5vh) minmax(50px, 10vh) minmax(200px, 85vh) / minmax(25px,1fr) minmax(100px,5fr);
   }
   
   .sidebar{
-    padding-top: 20px;
+    padding-top: 40px;
+    padding-right:25px;
     background-color: #020617;
     border: 1px solid black;
     grid-row: 1/4;
@@ -42,9 +43,13 @@
     color: white;
     font-weight: 700;
     font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;;
   }
   
   .side-options{
+    margin-top: 35px;
     color: white;
     font-weight: 700;
     display: grid;
@@ -61,4 +66,10 @@
   
 .icon{
     height: 24px;
+}
+
+.dots{
+  fill: white;
+  height: 72px;
+  margin-bottom: 0;
 }
